@@ -1,6 +1,5 @@
 <template>
   <div class="signup-page">
-    <TopBar/>
     <div class="container">
       <div class="signup-inner">
         <div class="text-wrapper">
@@ -30,7 +29,7 @@
               <input type="text" class="form-control" placeholder="select month and day">
             </div>
             <div class="btn-wrapper">
-              <a href="#" class="btn-style full form-btn">Create your account</a>
+              <router-link to="/verify-account" class="btn-style full form-btn">Create your account</router-link>
             </div>
           </form>
         </div>
@@ -41,10 +40,8 @@
 
 <script>
 import {defineComponent} from "vue";
-import TopBar from "@/components/TopBar.vue";
 
 export default defineComponent({
   name : 'SignUp',
-  components: {TopBar}
 })
 </script>

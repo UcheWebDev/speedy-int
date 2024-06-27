@@ -3,6 +3,10 @@ import HomeView from '../views/HomeView.vue'
 import OnBoardingView from "@/views/OnBoardingView.vue";
 import SignUp from "@/views/SignUp.vue";
 import LoginView from "@/views/LoginView.vue";
+import VerifyAccount from "@/views/VerifyAccount.vue";
+import DeliveryAddress from "@/views/DeliveryAddress.vue";
+import AddressMap from "@/views/AddressMap.vue";
+import AddAddressDetail from "@/views/AddAddressDetail.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -24,6 +28,26 @@ const routes: Array<RouteRecordRaw> = [
     path: '/login',
     name: 'login',
     component: LoginView
+  },
+  {
+    path: '/verify-account',
+    name: 'verify-account',
+    component: VerifyAccount
+  },
+  {
+    path: '/delivery-address',
+    name: 'delivery-address',
+    component: DeliveryAddress
+  },
+  {
+    path: '/address-map',
+    name: 'address-map',
+    component: AddressMap
+  },
+  {
+    path: '/add-address',
+    name: 'add-address',
+    component: AddAddressDetail
   },
   {
     path: '/about',
