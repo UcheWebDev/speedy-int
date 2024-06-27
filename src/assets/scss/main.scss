@@ -1,0 +1,115 @@
+@import "standard";
+@import "../fonts/stylesheet.css";
+@import "all.min.css";
+
+body{
+
+}
+
+// ****************************************************   Home Page Scss   ****************************************************
+
+.on-boarding-view{
+  height: 100vh;
+  background: $pink;
+  overflow-y: auto;
+  .onboarding-content{
+    padding: 70px 0 90px;
+    background: $primary01;
+    border-radius: 35px 35px 0 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    .content-wrapper{
+      text-align: center;
+      .on-boarding-img{
+        max-width: 290px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 99%;
+      }
+      .text{
+        margin: 0 0 60px;
+        p{
+          color: #DBDBDB;
+          margin: 11px 0 0 0;
+        }
+      }
+      .arrow-btn{
+        border: 2px solid $white;
+          border-radius: 50%;
+        display: inline-block;
+        padding: 14px;
+        .btn-div{
+          background: $white;
+          border-radius: 50%;
+          width: 56px;
+          height: 56px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            width: 15px;
+            height: 15px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+}
+.signup-page, .login-page{
+  padding-bottom: 62px ;
+  .signup-inner, .login-inner{
+    .text-wrapper{
+      padding: 43px 0 40px;
+      p{
+        span{
+          a{
+          font-weight: 600;
+            font-size: 14px;
+            color: $primary01;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    .btn-wrapper{
+      margin: 80px 0 0 0;
+      .form-btn{
+        &:not(&:last-of-type){
+          margin: 0 0 16px 0;
+        }
+      }
+    }
+    &.login-inner{
+      .btn-wrapper{
+        margin: 40px 0 0 0;
+      }
+    }
+  }
+}
+
+
+// ****************************************************   Global Scss   ****************************************************
+
+.top-bar{
+  padding: 16px 8px 12px;
+  strong{
+    font-size: 17px;
+    font-weight: 600;
+  }
+  ul.icons{
+    text-align: right;
+    li{
+      &:not(&:last-of-type){
+        margin: 0 2px 0 0 ;
+      }
+      img{
+        height: 14px;
+        object-fit: contain;
+      }
+    }
+  }
+}
