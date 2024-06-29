@@ -17,9 +17,10 @@ $yellow:yellow;
 $green : #12b76a;
 $orange : #dc6803;
 $pink : #fee4e2;
-$light-orange : #f3efd9;
-$light-pink : #fdf3f2;
+$light-orange : #FFF5DB;
+$light-pink : #FFE4E4;
 $gray : #5F6D7E;
+$light-gray : #FCFCFC;
 $dark-gray : #272D37;
 
 $layer-black :#04171a;
@@ -75,6 +76,15 @@ h3, .h3 {
   }
 }
 
+h4{
+  font-family: $avenir;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: $dark-gray;
+  margin: 0 0 0 0;
+}
+
 p, .p {
   font-weight: 400;
   font-size: 12px;
@@ -112,7 +122,7 @@ p, .p {
     }
   }
   &.gray{
-    color: $gray;
+    color: $gray !important;
   }
 }
 span {
@@ -125,6 +135,12 @@ span {
   &.medium{
     font-size: 12px;
     line-height: 20px;
+  }
+  &.green{
+    color: $green !important;
+  }
+  &.pink{
+    color: $primary02 !important;
   }
 }
 
@@ -212,6 +228,11 @@ ul {
     border: 1px solid $border-primary01;
     background: #F7F7F8;
     color: $black;
+  }
+  &.green{
+    background: $green;
+    border: 1px solid $green;
+    color: $white;
   }
   &.transparent{
     background: transparent;

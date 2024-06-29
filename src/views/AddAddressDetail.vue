@@ -2,7 +2,9 @@
   <div class="add-address-detail-page">
     <div class="container">
       <div class="page-title-bar">
-        <img src="../assets/images/icons/back-arrow-light-gray.png" alt="back-arrow-dark-gray" class="icon">
+        <a href="#">
+          <img src="../assets/images/icons/back-arrow-light-gray.png" alt="back-arrow-dark-gray" class="icon">
+        </a>
         <strong class="large">Add address details</strong>
       </div>
       <div class="map-wrapper">
