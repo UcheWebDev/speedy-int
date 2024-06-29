@@ -1,9 +1,9 @@
 <template>
   <div class="add-address-detail-page">
     <div class="container">
-      <div class="page-title-bar">
+      <div class="page-title-bar center">
         <a href="#">
-          <img src="../assets/images/icons/back-arrow-light-gray.png" alt="back-arrow-dark-gray" class="icon">
+          <img src="../assets/images/icons/back-arrow-light-gray.png" alt="back-arrow-dark-gray">
         </a>
         <strong class="large">Add address details</strong>
       </div>

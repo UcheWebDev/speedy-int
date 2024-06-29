@@ -14,6 +14,12 @@ import NotificationsView from "@/views/NotificationsView.vue";
 import NoNotificationComponent from "@/components/NoNotificationComponent.vue";
 import NoNotificationView from "@/views/NoNotificationView.vue";
 import ProfileView from "@/views/ProfileView.vue";
+import OrderStatusView from "@/views/OrderStatusView.vue";
+import AddDeliveryAddress from "@/views/AddDeliveryAddress.vue";
+import SearchItemView from "@/views/SearchItemView.vue";
+import NoSearchView from "@/views/NoSearchView.vue";
+import RecentSearchView from "@/views/RecentSearchView.vue";
+import ItemOrderView from "@/views/ItemOrderView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -85,6 +91,36 @@ const routes: Array<RouteRecordRaw> = [
     path: '/profile',
     name: 'profile',
     component: ProfileView,
+  },
+  {
+    path: '/order-status',
+    name: 'order-status',
+    component: OrderStatusView,
+  },
+  {
+    path: '/add-delivery-address',
+    name: 'add-delivery-address',
+    component: AddDeliveryAddress,
+  },
+  {
+    path: '/search-item',
+    name: 'search-item',
+    component: SearchItemView,
+  },
+  {
+    path: '/no-search',
+    name: 'no-search',
+    component: NoSearchView,
+  },
+  {
+    path: '/recent-search',
+    name: 'recent-search',
+    component: RecentSearchView,
+  },
+  {
+    path: '/item-order',
+    name: 'item-order',
+    component: ItemOrderView,
   },
   {
     path: '/about',
