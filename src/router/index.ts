@@ -20,6 +20,11 @@ import SearchItemView from "@/views/SearchItemView.vue";
 import NoSearchView from "@/views/NoSearchView.vue";
 import RecentSearchView from "@/views/RecentSearchView.vue";
 import ItemOrderView from "@/views/ItemOrderView.vue";
+import ItemOrderDetailPage from "@/views/ItemOrderDetailPage.vue";
+import UserProfileView from "@/views/UserProfileView.vue";
+import UserProfileDetail from "@/views/UserProfileDetail.vue";
+import FavouriteItemView from "@/views/FavouriteItemView.vue";
+import UserProfileAddress from "@/views/UserProfileAddress.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -121,6 +126,31 @@ const routes: Array<RouteRecordRaw> = [
     path: '/item-order',
     name: 'item-order',
     component: ItemOrderView,
+  },
+  {
+    path: '/item-order-detail',
+    name: 'item-order-detail',
+    component: ItemOrderDetailPage,
+  },
+  {
+    path: '/user-profile',
+    name: 'user-profile',
+    component: UserProfileView,
+  },
+  {
+    path: '/user-profile-detail',
+    name: 'user-profile-detail',
+    component: UserProfileDetail,
+  },
+  {
+    path: '/favourite-items',
+    name: 'favourite-items',
+    component: FavouriteItemView,
+  },
+  {
+    path: '/user-profile-address',
+    name: 'user-profile-address',
+    component: UserProfileAddress,
   },
   {
     path: '/about',

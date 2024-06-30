@@ -142,6 +142,15 @@ span {
   &.pink{
     color: $primary02 !important;
   }
+  &.orrage{
+    color: #F79009;
+  }
+  &.bold{
+    font-weight: 600;
+  }
+  &.gray{
+    color: $text-primary01;
+  }
 }
 
 a, .a {

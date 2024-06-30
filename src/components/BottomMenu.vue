@@ -20,10 +20,10 @@
         </a>
       </li>
       <li>
-        <a href="#" class="item">
+        <router-link to="/user-profile" class="item">
           <img src="../assets/images/icons/user-circle-icon.png" alt="home-icon">
           <p class="medium">Profile</p>
-        </a>
+        </router-link>
       </li>
     </ul>
   </div>
