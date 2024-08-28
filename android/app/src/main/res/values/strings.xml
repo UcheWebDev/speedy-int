@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">speedy-app</string>
+    <string name="title_activity_main">speedy-app</string>
+    <string name="package_name">speedyapp.ng</string>
+    <string name="custom_url_scheme">speedyapp.ng</string>
+</resources>

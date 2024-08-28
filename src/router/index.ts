@@ -28,9 +28,14 @@ import UserProfileAddress from "@/views/UserProfileAddress.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
+    path: '/customer',
+    name: 'customer',
+    component: HomeView
+  },
+  {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: LoginView
   },
   {
     path: '/on-boarding',

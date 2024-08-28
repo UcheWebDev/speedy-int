@@ -1,7 +1,7 @@
 <template>
   <div class="profile-page">
-    <div class="container">
-      <div class="page-title-bar center">
+    <div class="container" >
+      <div class="page-title-bar center" >
         <router-link to="/rider-dashboard"> <img src="../assets/images/icons/back-arrow-light-gray.png" alt="back-arrow-dark-gray" class="icon"></router-link>
         <strong class="large">Profile</strong>
       </div>
